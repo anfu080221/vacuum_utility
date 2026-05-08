@@ -10,8 +10,8 @@ echo "rug not found"
 return 1
 fi
 if ! [[ "$days_old" =~ ^[0-9]+$ ]] ;then
-echo "DEBUG value is '$days_old'"
-echo "DEBUG lenth is ${#days_old}"
+#echo "DEBUG value is '$days_old'"
+#echo "DEBUG lenth is ${#days_old}"
 echo "no time travel"
 return 1
 fi
